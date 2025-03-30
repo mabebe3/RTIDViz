@@ -1,0 +1,13 @@
+[requires]
+imgui/1.90.5
+implot/0.16
+boost/1.85.0
+arrow/19.0.1
+glfw/3.3.8
+opengl/system
+glad/0.1.34
+
+[generators]
+CMakeDeps
+CMakeToolchain
+

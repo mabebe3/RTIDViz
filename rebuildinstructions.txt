@@ -1,0 +1,6 @@
+Remove-Item -Recurse -Force .\build
+conan install . -of=build -g CMakeDeps -g CMakeToolchain --build=missing
+
+cmake -S . -B build "-DCMAKE_TOOLCHAIN_FILE=build/conan_toolchain.cmake"
+cmake --build build --verbose
+ cmake --build build --config Release

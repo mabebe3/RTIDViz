@@ -1,0 +1,100 @@
+# Build Folders
+/build/
+/out/
+/bin/
+/Debug/
+/Release/
+/x64/
+/Win32/
+/*.dir/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+
+# Visual Studio generated files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.sdf
+*.ipch
+*.aps
+*.ncb
+*.cachefile
+*.log
+*.vs
+
+# VSCode generated files
+.vscode/
+*.code-workspace
+
+# Mac OS specific files
+.DS_Store
+
+# Linux/Unix executable files (without extensions)
+*.out
+*.app
+*.exe
+
+# Object files
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.exp
+*.pdb
+*.ilk
+*.so
+*.dylib
+
+# CUDA intermediate files
+*.ptx
+*.cubin
+*.fatbin
+
+# Generated documentation
+docs/_build/
+
+# vcpkg generated files
+vcpkg_installed/
+
+# IDE-specific files
+.idea/
+
+# Any temporary files
+*.tmp
+*.temp
+
+# Data and log files
+*.csv
+*.log
+*.dat
+
+# Environment and secrets
+.env
+.env.*
+
+# Backup files
+*~
+*.bak
+
+# Visual Studio code coverage results
+*.coverage
+coverage/
+
+# Profiler files
+*.vsp
+*.vspx
+
+# Crash dumps
+*.dmp
